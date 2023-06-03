@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .input{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.input input{
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    color: rgb(150, 150, 143);
+}
+.input .fa-magnifying-glass{
+    width: 50px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(150, 150, 143);
+}
+
+.header .sec-head{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 70px;
+}
+.sec-head h1{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding:  8px;
+}
+.header .third-head{
+
+    width: 160px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.third-head i{
+    font-size: 23px;
+    margin: 10px;
+    margin-top: 40px;
+    color: rgb(150, 150, 143);
+}
+.third-head i:hover{
+    color: rgb(68, 68, 67);
+    transform: scale(1.1);
+}
+.third-head h1{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    width: 28px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* نهايه الهيدر */
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: blueviolet;
+}
+.icons i{
+    margin-left: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(112, 112, 112);
+}
+.aboutt{
+    color: rgb(122, 46, 199);
+    
+}
+/* ////////// /نهايه الناف باااار  /// */
+.linee{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: start;
+}
+.linee .newtex{
+width: 400px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.newtex h1 {
+    font-size: 20px;
+    color: black;
+}
+.newtex p {
+    font-size: 25px;
+    color: rebeccapurple;
+    width: 150px;
+    display: flex;
+    justify-content: start;
+}
+.newtex h2{
+    font-size: 22px;
+    color: black;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* نهاايه الهوم والابوت */
+.brand{
+    width: 100%;
+    height: 800px;
+}
+.simple{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.brand .flex1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1 .imgage {
+    width: 1100px;
+    height: 100%;
+    position: relative;
+}
+.imgage img{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+}
+
+
+.flex1 .sometext{
+
+    width: 1000px;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.sometext .textes{
+
+}
+.sometext h1 {
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+
+.sometext p {
+    width:500px;
+    height: 150px;
+    display: flex;
+}
+
+.textes .fa-solid {
+    width: 100%;
+    height: 10px;
+    color: blueviolet;
+    font-size: 50px;
+}
+/* نهااااااايه البراند */
+.myteam{
+    width: 100%;
+    height: 600px;
+}
+.simple{
+
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.simple .fa-solid {
+    width: 100%;
+    height: 100px;
+    color: blueviolet;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.simple h1{
+    font-size: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: blueviolet;
+}
+/* //////////الجزء بتاع بيج sale */
+.myteam .myteeam2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.teammm1{
+    height: 100%;
+}
+.teammm1 img{
+    border: 3px solid rebeccapurple;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 70px;
+}
+.teammm1 h1{
+    text-align: center;
+}
+.teammm1 h2{
+    text-align: center;
+}
+.teammm1 p{
+    text-align: center;
+}
+/* ////// */
+.teammm2{
+    height: 100%;
+}
+.teammm2 img{
+    border: 3px solid rebeccapurple;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 70px;
+}
+.teammm2 h1{
+    text-align: center;
+}
+.teammm2 h2{
+    text-align: center;
+}
+.teammm2 p{
+    text-align: center;
+}
+/* ////// */
+.teammm3{
+    height: 100%;
+}
+.teammm3 img{
+    border: 3px solid rebeccapurple;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 70px;
+}
+.teammm3 h1{
+    text-align: center;
+}
+.teammm3 h2{
+    text-align: center;
+}
+.teammm3 p{
+    text-align: center;
+}
+/* ////// */
+
+.teammm4{
+    height: 100%;
+}
+.teammm4 img{
+    border: 3px solid rebeccapurple;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 70px;
+}
+.teammm4 h1{
+    text-align: center;
+}
+.teammm4 h2{
+    text-align: center;
+}
+.teammm4 p{
+    text-align: center;
+}
+/* ////// نهاااااااااايه team*/
+
+.second-body{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.second-body .car-icon{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.car-icon .fa-truck{
+    height: 140px;
+    width: 250px;
+    font-size: 50px;
+    color: blueviolet;
+    display: flex;
+    justify-content: start;
+    
+}
+.car-icon h1{
+    font-size: 30px;
+    text-align: left;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.car-icon p{
+    text-align: left;
+    font-size: 20px;
+}
+/* /////////////////////// */
+.second-body .car-icon2{
+
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.car-icon2 .fa-rotate-right{
+    height: 140px;
+    width: 250px;
+    font-size: 45px;
+    color: blueviolet;
+    display: flex;
+    justify-content: start;
+}
+
+.car-icon2 h1{
+    font-size: 30px;
+    text-align: left;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.car-icon2 p{
+    text-align: left;
+    font-size: 20px;
+}
+/* ////////////////////////// */
+.second-body .car-icon3{
+width: 400px;
+height: 200px;
+display: flex;
+justify-content: center;
+
+}
+.car-icon3 .wwwe{
+    width: 200px;
+}
+.car-icon3 .fa-question{
+font-size: 40px;
+color: white;
+background-color: blueviolet;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.car-icon3 h1{
+    font-size: 30px;
+    text-align: left;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.car-icon3 p{
+    text-align: left;
+    font-size: 20px;
+}
+/* ////////////////////////////// */
+.footer{
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+}
+.footer .counteinar{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.counteinar .emd1{
+    width: 180px;
+    height: 100%;
+}
+
+.emd1 h1{
+font-size: 34px;
+height: 70px;
+color: blueviolet;
+}
+.emd1 p{
+    font-size: 19px;
+}
+.emd1 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* emd2 */
+.counteinar .emd2{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd2 p{
+    font-size: 19px;
+}
+
+.emd2 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* //////emd3 */
+.counteinar .emd3{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd3 p{
+    font-size: 19px;
+}
+
+.emd3 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* ////emd3 */
+.counteinar .emd4{
+    width: 250px;
+    height: 100%;
+}
+.emd4 h1{
+    width: 100%;
+    height: 65px;
+    color: blueviolet;
+
+}
+.emd4 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.emd4 h2{
+    height: 40px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.emd4 p{
+    font-size: 17px;
+}
+.counteinar .emd5{
+    width: 350px;
+    height: 100%;
+}
+.emd5 .roww{
+    width: 100%;
+    height: 65px;
+    color: blueviolet;
+
+}
+.emd5 .row1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.row1 .fa-solid{
+font-size: 30px;
+color: blueviolet;
+width: 50px;
+height: 50px;
+}
+.row1 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+
+}
+.emd5 .row2{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row2 .fa-phone{
+    font-size: 30px;
+    color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.row2 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+
+}
+
+.emd5 .row3{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row3 .fa-solid{
+    font-size: 30px;
+    color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.row3 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+
+}
+
+/* ////// counteinar2*/
+.footer .counteinar2{
+    width: 100%;
+    height: 100px;
+}
+.counteinar2 .final{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative ;
+}
+.final h1{
+    position: absolute;
+    right: 237px;
+    color: blueviolet;
+
+}
+.counteinar2 .final2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.final2 input{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 70px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.final2 button{
+    width: 90px;
+    height: 92%;
+    font-size: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    right: 72px;
+}
+
+/* ////////// counteinar3 */
+.footer .counteinar3{
+    width: 100%;
+    height: 160px;
+}
+.counteinar3 h1{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+span{
+    color: blueviolet;
+    margin-left: 10px;
+}

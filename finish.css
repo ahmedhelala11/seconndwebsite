@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .input{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.input input{
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    color: rgb(150, 150, 143);
+}
+.input .fa-magnifying-glass{
+    width: 50px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(150, 150, 143);
+}
+
+.header .sec-head{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 70px;
+}
+.sec-head h1{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding:  8px;
+}
+.header .third-head{
+
+    width: 160px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.third-head i{
+    font-size: 23px;
+    margin: 10px;
+    margin-top: 40px;
+    color: rgb(150, 150, 143);
+}
+.third-head i:hover{
+    color: rgb(68, 68, 67);
+    transform: scale(1.1);
+}
+.third-head h1{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    width: 28px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* نهايه الهيدر */
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: blueviolet;
+}
+.icons i{
+    margin-left: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(112, 112, 112);
+}
+.aboutt{
+    color: rgb(122, 46, 199);
+    
+}
+/* ////////// /نهايه الناف باااار  /// */
+.linee{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: start;
+}
+.linee .newtex{
+width: 400px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.newtex h1 {
+    font-size: 20px;
+    color: black;
+}
+.newtex p {
+    font-size: 25px;
+    color: rebeccapurple;
+    width: 150px;
+    display: flex;
+    justify-content: start;
+}
+.newtex h2{
+    font-size: 22px;
+    color: black;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* نهاايه الهوم والابوت */
+
+
+
+.firstfinish{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.firstfinish .mohhtawa{
+    height: 100%;
+}
+.firstfinish .mohhtawa .fa-check{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(9, 245, 9);
+    border-radius: 50%;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mohhtawa h1{
+    font-size: 65px;
+}
+.mohhtawa p{
+    font-size: 30px;
+}
+.mohhtawa a{
+font-size: 50px;
+text-decoration: none;
+border: none;
+}
+.mohhtawa button{
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+.mohhtawa button:hover{
+    transform: scale(1.1);
+}
+.iconss{
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////foooter */
+.footer{
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+}
+.footer .counteinar{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.counteinar .emd1{
+    width: 180px;
+    height: 100%;
+}
+
+.emd1 h1{
+font-size: 34px;
+height: 70px;
+color: blueviolet;
+}
+.emd1 p{
+    font-size: 19px;
+}
+.emd1 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* emd2 */
+.counteinar .emd2{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd2 p{
+    font-size: 19px;
+}
+
+.emd2 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* //////emd3 */
+.counteinar .emd3{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd3 p{
+    font-size: 19px;
+}
+
+.emd3 p a{
+    text-decoration: none;
+    color: rgb(73, 110, 110);
+}
+/* ////emd3 */
+.counteinar .emd4{
+    width: 250px;
+    height: 100%;
+}
+.emd4 h1{
+    width: 100%;
+    height: 65px;
+    color: blueviolet;
+}
+.emd4 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.emd4 h2{
+    height: 40px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.emd4 p{
+    font-size: 17px;
+}
+.counteinar .emd5{
+    width: 350px;
+    height: 100%;
+}
+.emd5 .roww{
+    width: 100%;
+    height: 65px;
+    color: blueviolet;
+}
+.emd5 .row1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+.row1 .fa-solid{
+font-size: 30px;
+color: blueviolet;
+width: 50px;
+height: 50px;
+}
+.row1 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+}
+.emd5 .row2{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row2 .fa-phone{
+    font-size: 30px;
+    color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.row2 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+}
+
+.emd5 .row3{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row3 .fa-solid{
+    font-size: 30px;
+    color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.row3 h1{
+    font-size:20px;
+    height: 50px;
+    color: blueviolet;
+}
+
+/* ////// counteinar2*/
+.footer .counteinar2{
+    width: 100%;
+    height: 100px;
+}
+.counteinar2 .final{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative ;
+}
+.final h1{
+    position: absolute;
+    right: 237px;
+    color: blueviolet;
+}
+.counteinar2 .final2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.final2 input{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 70px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.final2 button{
+    width: 90px;
+    height: 92%;
+    font-size: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    right: 72px;
+}
+
+/* ////////// counteinar3 */
+.footer .counteinar3{
+    width: 100%;
+    height: 160px;
+}
+.counteinar3 h1{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+span{
+    color: blueviolet;
+    margin-left: 10px;
+}
